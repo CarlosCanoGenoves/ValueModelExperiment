@@ -1388,7 +1388,7 @@ input, select, textarea {
 		}
 
 		.image:before {
-			content: '';
+		/*	content: '';	*/
 			display: block;
 			position: absolute;
 			left: 0;
@@ -1774,7 +1774,7 @@ input, select, textarea {
 		width: 940px;
 		margin: 0 auto;
 		overflow: hidden;
-		padding: 9em 0 6em 0;
+		/*padding: 9em 0 6em 0;*/
 	}
 
 		#banner h2 {
@@ -1812,6 +1812,35 @@ input, select, textarea {
 				margin: 1.25em 0 10px 0;
 			}
 
+		#authors
+		{
+			text-transform: uppercase;
+			color: #fff;
+			color: rgba(255, 255, 255, 0.75);
+			font-size: 1em;
+			font-weight: 700;
+			line-height: 1.3em;
+			letter-spacing: 0.04em;
+			float: left;
+			text-align: left;
+			line-height: 1.5em;
+			margin: 0;
+		}
+
+		#university
+		{
+			text-transform: uppercase;
+			color: #fff;
+			color: rgba(255, 255, 255, 0.75);
+			font-size: 1em;
+			line-height: 1.3em;
+			letter-spacing: 0.04em;
+			float: left;
+			text-align: left;
+			line-height: 1.5em;
+			margin: 0;
+		}
+/*
 		#banner p {
 			text-transform: uppercase;
 			color: #fff;
@@ -1826,6 +1855,7 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
+*/
 
 /* Sidebar */
 
@@ -1855,7 +1885,7 @@ input, select, textarea {
 		background-repeat: repeat-x, no-repeat, repeat;
 		background-size: 100% 100%, 100% 15em, auto auto;
 		background-position: top left, top center, top left;
-		padding: 7em 0 7em 0;
+		padding: 2em 0 1em 0;
 	}
 
 	.wrapper {
@@ -2405,4 +2435,9 @@ input, select, textarea {
 				padding: 3em 0 1em 0;
 			}
 
+	}
+	
+	#custom
+	{
+		width: 25%;
 	}
